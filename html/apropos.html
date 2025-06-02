@@ -1,46 +1,151 @@
-<!DOCTYPE html> <!-- Version 5 de HTML-->
-<html lang="fr"> <!-- Précision de la langue pour le navigateur-->
-    <head> <!-- Entête du document HTML -->
-        <title>Assah - Accueil</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
-        <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    </head><!-- Fin de la balise d'entête -->
-    <body><!-- Début du code de la page web -->
-        <header>
-            <nav>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assah - À propos</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <section id="a-propos-hero">
+        <header class="site-header">
+            <div class="logo">Logo</div>
+            <nav class="nav">
                 <a href="./accueil.html">Accueil</a>
-                <a href="./apropos.html">A propos</a>
+                <a href="./apropos.html">À propos</a>
                 <a href="./don.html">Faites un don</a>
                 <a href="./partenaires.html">Partenaires</a>
-                <button type="submit" class="navbutton ">S'inscrire</button>
             </nav>
+        <button class="navbutton">S'inscrire</button>
         </header>
-        <section id="a-propos">
-        <h2>À propos de notre projet</h2>
-            <p>Nous sommes une organisation engagée contre la pauvreté, créée en 2019. Notre objectif : agir concrètement sur le terrain pour redonner espoir à ceux qui en ont besoin.</p>
-        <div class="membres-container">
-            <div class="membre">
-                    <img src="../img/image1.jpg"alt="Image Ariel" />
-            <div>
+
+        <div class="hero-overlay">
+            <h1>À propos de nous</h1>
+            <p>Notre engagement pour un avenir plus juste, depuis 2019.</p>
+        </div>
+    </section>
+
+
+      <!-- Notre Histoire -->
+    <section id="notre-histoire">
+        <div class="container">
+          <h2>Notre Histoire</h2>
+          <p>
+            Depuis 2019, nous œuvrons pour un monde sans pauvreté. Grâce à des actions de terrain, une écoute active et la mobilisation de partenaires, nous aidons concrètement ceux qui en ont le plus besoin.
+          </p>
+        </div>
+    </section>
+
+      <!-- Section Équipe -->
+    <section id="team">
+        <div class="container">
+            <h2>Rencontrez notre équipe</h2>
+            <div class="team-grid">
+            <div class="team-member">
+                <img src="../img/ph_Ariel-1.jpg" alt="YAPO Ariel" />
                 <h3>YAPO Ariel</h3>
-                <p>Responsable de l’interface utilisateur et de l'intégration HTML/CSS.</p>
+                <p>Responsable Partenariats Stratégiques</p>
             </div>
-            </div>
-            <div class="membre">
-                    <img src="../img/image2.jpg" alt="Image Jennifer" />
-            <div>
+            <div class="team-member">
+                <img src="../img/ph_rapide-1.jpg" alt="RAKOTOARINIA Jennifer" />
                 <h3>RAKOTOARINIA Jennifer</h3>
-                <p>En charge de la logique JavaScript et des fonctionnalités dynamiques.</p>
+                <p>Chargée des Projets Digitaux</p>
+            </div>
+            <div class="team-member">
+                <img src="../img/Alex dupont.png" alt="Membre Imaginaire 1" />
+                <h3>Alex Dupont</h3>
+                <p>Coordinateur Terrain</p>
+            </div>
+            <div class="team-member">
+                <img src="../img/Sophie Martin.png" alt="Membre Imaginaire 2" />
+                <h3>Sophie Martin</h3>
+                <p>Chargée de Communication</p>
             </div>
             </div>
         </div>
-        </section>
+    </section>
 
-            <footer>
-            <p>©2025 Ariel YAPO & Jennifer RAKOTOARINIA.</p>
-            <a href="./apropos.html">A propos</a>
-            <p>Tous droits réservés.</p>
-        </footer>
-    </body><!-- Fin du code de la page web -->
-</html><!-- Fin du document -->
+      <!-- Nos Valeurs -->
+<section id="valeurs-section">
+  <h2>Nos Valeurs</h2>
+
+  <div class="valeur-row">
+    <div class="valeur-image">
+      <img src="../img/solidarite.png" alt="Image Solidarité" />
+    </div>
+    <div class="valeur-text">
+      <h3>Solidarité</h3>
+      <p>
+        La solidarité est la force motrice de notre engagement. Nous croyons que l’union des efforts et la coopération entre individus et communautés sont essentielles pour bâtir un avenir plus équitable. Chaque geste, aussi petit soit-il, contribue à tisser un réseau de soutien durable qui permet aux plus vulnérables de retrouver dignité et espoir. En travaillant ensemble, nous pouvons surmonter les défis sociaux et économiques qui freinent le progrès collectif.
+      </p>
+    </div>
+  </div>
+
+  <div class="valeur-row reverse">
+    <div class="valeur-text">
+      <h3>Engagement</h3>
+      <p>
+        L’engagement personnel et collectif est le cœur de notre action. Nous nous investissons pleinement, avec passion et détermination, pour transformer nos idéaux en réalités concrètes. Cet engagement se manifeste dans la rigueur de nos interventions, la transparence de nos actions et la fidélité à nos valeurs. C’est cette volonté inflexible qui nous pousse à aller plus loin, à nous adapter aux besoins sur le terrain, et à impliquer tous les acteurs concernés.
+      </p>
+    </div>
+    <div class="valeur-image">
+      <img src="../img/images-engagement.jpeg" alt="Image Engagement" />
+    </div>
+  </div>
+
+  <div class="valeur-row">
+    <div class="valeur-image">
+      <img src="../img/inclusion.jpg" alt="Image Inclusion" />
+    </div>
+    <div class="valeur-text">
+      <h3>Inclusion</h3>
+      <p>
+        Nous prônons une société inclusive où chaque individu, quelles que soient ses origines, son genre ou sa condition, trouve sa place et ses chances. L’inclusion sociale et économique est pour nous une priorité afin de garantir l’égalité d’accès aux ressources, à l’éducation et à la participation active. En valorisant la diversité, nous enrichissons nos perspectives et renforçons la cohésion sociale, facteur clé d’une paix durable.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////don section/////////////////////////-->
+    <section id="don">
+        <div class="don-content">
+            <h2>Faites un don aujourd'hui</h2>
+            <p>
+                Votre contribution peut changer des vies. Aidez-nous à lutter contre la pauvreté dans le monde.
+            </p>
+            <div class="don-buttons">
+                <button class="button-primary">Donner</button>
+                <button class="button-secondary">S'impliquer</button>
+            </div>
+        </div>
+    </section>
+
+<footer id="footer-a-propos">
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3 class="footer-logo">Logo</h3>
+      <p><strong>Adresse:</strong><br>Niveau 1, 12 Sample St, Sydney NSW 2000</p>
+      <p><strong>Contact:</strong><br>1800 123 4567<br><a href="mailto:email@example.com">email@example.com</a></p>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="./accueil.html">Accueil</a></li>
+        <li><a href="./apropos.html">À propos</a></li>
+        <li><a href="./don.html">Faites un don</a></li>
+        <li><a href="./partenaires.html">Partenaires</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Ariel YAPO & Jennifer RAKOTOARINIA. Tous droits réservés.</p>
+    <div class="footer-legal">
+      <a href="https://github.com/jenniferrkt/projet-WEB.git">Politique de Confidentialité</a>
+      <a href="https://github.com/jenniferrkt/projet-WEB.git">Conditions d’utilisation</a>
+    </div>
+  </div>
+</footer>
+</html>
