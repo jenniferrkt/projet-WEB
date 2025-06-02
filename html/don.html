@@ -4,6 +4,7 @@
         <title>Assah - Accueil</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
         <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="../java/script.js"></script>
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
     </head><!-- Fin de la balise d'entête -->
     <body><!-- Début du code de la page web -->
@@ -13,13 +14,13 @@
                 <a href="./apropos.html">A propos</a>
                 <a href="./don.html">Faites un don</a>
                 <a href="./partenaires.html">Partenaires</a>
-                <button type="submit" class="navbutton ">S'inscrire</button>
+                <a href="./connecter.html" class="navbutton ">Se connecter</a>
             </nav>
         </header>
 
     <div class="form-container">
         <h2>Un don pour lutter contre la pauveté</h2>
-        <form method="post">
+        <form method="post" onsubmit="return confirmerDon()">
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="nom" required>
 
@@ -48,15 +49,13 @@
             <label for="cvv">Code de sécurité (CVV) :</label>
             <input type="text" id="cvv" name="cvv" maxlength="4" required>
 
-            <input type="submit" value="Faire un don" onclick = "quizAlert()">
+            <input type="submit" value="Faire un don"/>
         </form>
-    </div>    
-            </fieldset>
-        </main>
-            <footer>
-            <p>©2025 Ariel YAPO & Jennifer RAKOTOARINIA.</p>
-            <a href="./apropos.html">A propos</a>
-            <p>Tous droits réservés.</p>
-        </footer>
+    </div>            
+    <footer>
+        <p>©2025 Ariel YAPO & Jennifer RAKOTOARINIA.</p>
+        <a href="./apropos.html">A propos</a>
+        <p>Tous droits réservés.</p>
+    </footer>
     </body><!-- Fin du code de la page web -->
 </html><!-- Fin du document -->
