@@ -1,6 +1,8 @@
 <!DOCTYPE html> <!-- Version 5 de HTML-->
 <html lang="fr"> <!-- Précision de la langue pour le navigateur-->
-    <head> <!-- Entête du document HTML -->
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ <!-- Entête du document HTML -->
         <title>Assah - Accueil</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
         <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,131 +11,161 @@
     <body><!-- Début du code de la page web -->
 
         <!-- /////////////////////////hero section/////////////////////////-->
-        <section id="hero section"> 
-            <div>
-                <img alt="image alt text" src="../img/img_header.png" height="auto" width="auto"></div>
-            <header>
-                 <!-- logo à changer-->
-            </a>
-            <nav>
+        <section class="hero-section">
+            <header class="site-header">
+            <div class="logo">Logo</div>
+            <nav class="nav">
                 <a href="./accueil.html">Accueil</a>
-                <a href="./apropos.html">A propos</a>
-                <a href="./don.html">Faites un don</a>
+                <a href="./apropos.html">À propos</a>
+                <a href="./html/don.html">Faites un don</a>
                 <a href="./partenaires.html">Partenaires</a>
-                <button type="submit" class="navbutton ">S'inscrire</button>
             </nav>
-         
-        <div class="hero-text">
-            <h1> 
-                Rejoignez la lutte contre la pauvreté 
-            </h1>
-            <p>
-                Ensemble, nous pouvons faire une différence significative dans la vie des personnes touchées par la pauvreté. Chaque action compte et votre soutien est essentiel.
-            </p>
-            <button type="submit" class="herobutton ">Faire un don</button>
-            <button type="submit" class="herobutton">S'impliquer</button>
-        </header>
-    </div>
-        </section>
+            <button class="navbutton">S'inscrire</button>
+  </header>
+
+    <div class="hero-content">
+        <h1>Rejoignez la lutte contre la pauvreté</h1>
+        <p>Ensemble, nous pouvons faire une différence significative dans la vie des personnes touchées par la pauvreté. Chaque action compte et votre soutien est essentiel.</p>
+        <div class="hero-buttons">
+            <button class="herobutton white">Faire un don</button>
+            <button class="herobutton transparent">S'impliquer</button>
+        </div>
+  </div>
+    </section>
+
         <!-- /////////////////////////impact section/////////////////////////-->   
-        <section id="impact" class="impact">
-            <div class="impact-text">
+    <section id="impact" class="impact-section">
+        <div class="impact-row">
+            <div class="impact-left">
                 <h2>Découvrez l'impact de notre lutte contre la pauvreté dans le monde.</h2>
+            </div>
+
+            <div class="impact-right">
                 <p>Nous avons aidé des milliers de personnes à sortir de la pauvreté. Chaque don compte et fait une différence significative.</p>
-            </div>
-
             <div class="impact-stats">
-                <div class="stat">
-                    <strong>75%</strong>
-                    <p>de personnes ont reçu une aide alimentaire essentielle.</p>
-                </div>
-                <div class="stat">
-                    <strong>100%</strong>
-                    <p>des fonds sont directement investis dans nos projets.</p>
-                </div>
+            <div class="stat">
+                <strong>75%</strong>
+                <p>de personnes ont reçu une aide alimentaire essentielle.</p>
             </div>
+            <div class ="stat">
+                <strong>100%</strong>
+                <p>des fonds sont directement investis dans nos projets.</p>
+            </div>
+            </div>
+            </div>
+    </div>
 
-            <div class="impact-image">
-                <img src="../img/impact.png" alt="Image illustrative de l'impact" />
-            </div>
-        </section>
+    <div class="impact-image">
+        <img src="../img/impact.png" alt="Image illustrative de l'impact" />
+    </div>
+    </section>
+
         <!-- /////////////////////////contribuer section/////////////////////////--> 
-        <section  id="contribuer">
-         <h2>
+    <section id="contribuer">
+        <h2>
             Découvrez comment vous pouvez contribuer à la lutte contre la pauvreté.
         </h2>
+
         <div class="contribuer-list">
+
             <div class="image-contribuer">
                 <img src="../img/contribuer1.png" alt="Image impact1" />
-            
-            <h3>
-                Agissez maintenant pour faire une différence dans la vie des autres.
-            </h3>
-            <p>
-                Vous souhaitez participer et faire la différence ? Exprimez-vous.
-            </p>
-            </div>
-            <div class="image-contribuer">
-                <img src="../img/contribuer2.png" alt="Image impact2" />
-            
-            <h3>
-                Devenez bénévole et apportez votre aide sur le terrain.
-            </h3>
-                <p>
-                    Rejoignez notre équipe pour faire un différence significative.
-                </p>
-            </div>
-            <div class="image-contribuer">
-                <img src="../img/contribuer3.png" alt="Image impact3" />
-            
-                <h3>
-                    Partenaires : Unissons nos forces pour lutter contre la pauvreté.
-                </h3>
-                <p>
-                    Contribuez, formez pour construire une impact durable et positif.
-                </p>
-                </div>
-        </div>  
-        </section>
-        <!-- /////////////////////////team section/////////////////////////-->
-        <section id="team">
-            <h2>Notre Team</h2>
-            <div class="team-row">
-                <div class="team-image">
-                    <img src="../img/image1.jpg"alt="Image Ariel" />
-                </div>
-                <div class="team-text1">
-                    <h3>Partenariats stratégiques pour un impact durable et significatif.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit... (texte)</p>
-                </div>
+                <h3>Agissez maintenant pour faire une différence dans la vie des autres.</h3>
+                <p>Votre soutien peut transformer des vies et apporter de l’espoir.</p>
+                <a href="#">Donner</a>
             </div>
 
-            <div class="team-row">
-                <div class="team-text">
-                    <h3>Votre aide peut faire une différence significative dans la vie des autres.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit... (texte)</p>
-                </div>
-                <div class="team-image">
-                    <img src="../img/image2.jpg" alt="Image Jennifer" />
-                </div>
+            <div class="image-contribuer">
+                <img src="../img/contribuer2.png" alt="Image impact2" />
+                <h3>Devenez bénévole et apportez votre aide sur le terrain.</h3>
+                <p>Rejoignez notre équipe pour faire une différence significative.</p>
+                <a href="#">S’inscrire</a>
             </div>
-            </section>
-            <!-- /////////////////////////don section/////////////////////////-->
-             <section id="don">
-                <div class="don-content">
-                    <h2>Faites un don aujourd'hui</h2>
-                    <p>Votre contribution peut changer des vies et soutenir la lutte contre la pauvreté dans le monde.</p>
-                    <div class="don-buttons">
-                        <button class="button-primary">Donner</button>
-                        <button class="button-secondary">S'impliquer</button>
-                    </div>
-                </div>   
-            </section>
-            <!-- /////////////////////////footer/////////////////////////-->
-            <footer>
-            <p>©2025 Ariel YAPO & Jennifer RAKOTOARINIA.</p>
-            <a href="./apropos.html">A propos</a>
-            <p>Tous droits réservés.</p>
-        </footer>
+
+            <div class="image-contribuer">
+                <img src="../img/contribuer3.png" alt="Image impact3" />
+                <h3>Partenaires : Unissons nos forces pour lutter contre la pauvreté.</h3>
+                <p>Ensemble, nous pouvons créer un impact durable et positif.</p>
+                <a href="#">Collaborer</a>
+            </div>
+
+        </div>
+    </section>
+
+        <!-- /////////////////////////team section/////////////////////////-->
+    <section id="team-section">
+        <h2>Notre Team</h2>
+
+        <div class="team-row">
+            <div class="team-image">
+                <img src="../img/ph_Ariel-1.jpg" alt="Portrait 1" />
+            </div>
+            <div class="team-text">
+                <h3>Partenariats stratégiques pour un impact durable et significatif.</h3>
+                <p>
+                    Ariel est le pilier de notre réseau de partenaires. Grâce à son engagement, nous avons établi des collaborations solides avec des associations, des institutions et des entreprises qui partagent notre mission. Son objectif : transformer chaque alliance en une opportunité concrète pour lutter efficacement contre la pauvreté. Il croit fermement que la solidarité entre les acteurs est la clé d’un avenir plus juste.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="team-row reverse">
+            <div class="team-image">
+                <img src="../img/ph_rapide-1.jpg" alt="Portrait 2" />
+            </div>
+            <div class="team-text">
+                <h3>Votre aide peut faire une différence significative dans la vie des autres.</h3>
+                <p>
+                    Jennifer incarne le cœur humain de notre action. Présente sur le terrain, elle agit chaque jour au plus près des personnes vulnérables. Son écoute, son empathie et son énergie sont contagieuses. Elle mobilise des bénévoles, crée des liens de confiance avec les familles aidées, et redonne espoir à ceux qui en ont besoin. Pour elle, chaque geste de générosité a un pouvoir immense.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- /////////////////////////don section/////////////////////////-->
+    <section id="don">
+        <div class="don-content">
+            <h2>Faites un don aujourd'hui</h2>
+            <p>
+                Votre contribution peut changer des vies. Aidez-nous à lutter contre la pauvreté dans le monde.
+            </p>
+            <div class="don-buttons">
+                <button class="button-primary">Donner</button>
+                <button class="button-secondary">S'impliquer</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- /////////////////////////footer/////////////////////////-->
+   <footer id="footer">
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3 class="footer-logo">Logo</h3>
+      <p><strong>Adresse:</strong><br>Niveau 1, 12 Sample St, Sydney NSW 2000</p>
+      <p><strong>Contact:</strong><br>1800 123 4567<br><a href="mailto:email@example.com">email@example.com</a></p>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="./accueil.html">Accueil</a></li>
+        <li><a href="./apropos.html">À propos</a></li>
+        <li><a href="./don.html">Faites un don</a></li>
+        <li><a href="./partenaires.html">Partenaires</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Ariel YAPO & Jennifer RAKOTOARINIA. Tous droits réservés.</p>
+    <div class="footer-legal">
+      <a href="#">Politique de Confidentialité</a>
+      <a href="#">Conditions d’utilisation</a>
+    </div>
+  </div>
+</footer>
+
+
     </body><!-- Fin du code de la page web -->
 </html><!-- Fin du document -->
