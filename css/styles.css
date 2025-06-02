@@ -34,7 +34,7 @@ nav a {
     cursor: pointer;
 }
 
-/* HERO SECTION */
+/* hero*/
 #hero\:section {
 
     position: relative;
@@ -67,7 +67,7 @@ nav a {
 }
 
 .hero-text
-/* IMPACT SECTION */
+/* impact*/
 .impact {
     padding: 80px 50px;
     background-color: #f6f6f6;
@@ -97,7 +97,7 @@ nav a {
     border-radius: 10px;
 }
 
-/* CONTRIBUER SECTION */
+/* contribuer */
 #contribuer {
     background-color: #f4b4aa;
     padding: 60px 50px;
@@ -156,7 +156,7 @@ nav a {
   text-decoration: underline;
 }
 
-/* TEAM SECTION */
+/* section */
 #team {
     padding: 80px 50px;
     background-color: white;
@@ -187,46 +187,7 @@ nav a {
     padding: 20px;
 }
 
-/* DON SECTION */
-#don {
-    background-image: url("../img/don.png") ;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 60px 50px;
-    text-align: center;
-}
-
-#don h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-#don p {
-    margin-bottom: 30px;
-}
-
-.don-buttons button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.button-primary {
-    background-color: #e03a3e;
-    color: white;
-    border: none;
-}
-
-.button-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-/* FOOTER */
+/* footer */
 footer {
     background-color: #f2f2f2;
     padding: 20px 50px;
